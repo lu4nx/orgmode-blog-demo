@@ -1,0 +1,26 @@
+#+OPTIONS: ^:nil
+
+这是文章1的内容。
+
+图片附件测试：
+
+[[file:images/cat.png]]
+
+代码测试：
+
+#+BEGIN_SRC emacs-lisp
+  (defun read-html-template (template-file)
+    (with-temp-buffer
+      (insert-file-contents (concat *site-template-directory* "/" template-file))
+      (buffer-string)))
+#+END_SRC
+
+Orgmode默认支持LaTex语法，所以下划线会被当作LaTex语法解析，如果文章中有非数学公式以外的下划线，需要在源文件顶部加上：
+
+#+BEGIN_EXAMPLE
+  #+OPTIONS: ^:nil
+#+END_EXAMPLE
+
+包含下划线不被解析成LaTex公式的测试：
+
+a_b_c

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>我的博客</title>
+    <link>http://www.shellcodes.org</link>
+    <generator>www.shellcodes.org</generator>
+    <webmaster>lx@shellcodes.org</webmaster>
+    <description>我的博客</description>
+
+    <item>
+      <title>文章1</title>
+      <link>http://www.xxx.org/文章1.html</link>
+      <pubDate>2016-12-31 23:30</pubDate>
+      <description>文章1简介</description>
+    </item>
+
+    <item>
+      <title>文章2</title>
+      <link>http://www.xxx.org/文章2.html</link>
+      <pubDate>2016-12-31 23:30</pubDate>
+      <description>文章2简介</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+# 设置选项见：http://orgmode.org/manual/Export-settings.html
+#+TITLE: 我的博客
+#+OPTIONS: toc:nil num:nil ^:nil
+
+# 首页不标题显示，这里实现虽然不优雅
+#+BEGIN_HTML
+<style>
+h1.title {
+display: none
+}
+</style>
+#+END_HTML
+
+# 如果你需要站内搜索，把Google站内搜索代码插在这里
+#+BEGIN_HTML
+<script>
+</script>
+<gcse:search></gcse:search>
+#+END_HTML
+
+[[file:math.org][数学公式]]
+
+[[file:Blog/%E6%96%87%E7%AB%A01.org][文章1]]

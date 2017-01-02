@@ -1,0 +1,9 @@
+#+TITLE: 图片测试
+
+Emacs logo：
+
+[[file:images/emacs.png]]
+
+Org mode logo：
+
+[[file:images/orgmode.png]]

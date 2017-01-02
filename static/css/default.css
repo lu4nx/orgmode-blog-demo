@@ -1,0 +1,85 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 750px;
+    font-family: 'AvenirNextLTW01-Regular', Helvetica, sans-serif;
+}
+
+a{
+    color: rgba(0, 0, 0, 0.80);
+    text-decoration: underline;
+}
+
+header{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#bar{
+    display: block;
+    font-size:15px;
+    padding: 5px;
+    list-style-type: none;
+    border: 1px dashed black;
+}
+
+.menu{
+    font-family: "Menlo", sans-serif;
+    font-size:17px;
+    text-transform: uppercase;
+    list-style-type: none;
+    padding-left: 0;
+    padding-bottom: 25px;
+    color: #444;
+}
+
+.menu>li{
+    float: left;
+    padding-right: 25px;
+}
+
+.menu>li>a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content>h1, h2, h3, h4, h5, h6, h7 {
+    font-family: serif;
+    margin: 0;
+}
+
+img {
+    max-width: 90%;
+}
+
+pre {
+    display: block;
+    background: #eee;
+    padding: 25px;
+    line-height: 1em;
+    font-size: 15px;
+    border-radius: 12px;
+    white-space: pre-wrap;
+    word-break: break-all;
+    color: #333;
+}
+
+.content {
+    font-size: 18px;
+    line-height: 23pt;
+    margin: 0 auto;
+}
