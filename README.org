@@ -1,0 +1,5 @@
+* 说明
+使用Org-mode来生成博客，详细请见文章：https://www.shellcodes.org/Emacs/%E4%BD%BF%E7%94%A8Orgmode%E7%94%9F%E6%88%90%E5%8D%9A%E5%AE%A2.html
+
+* License
+Distributed under the GNU General Public License, version 3
